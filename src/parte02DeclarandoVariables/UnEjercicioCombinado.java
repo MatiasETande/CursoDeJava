@@ -6,7 +6,7 @@ public class UnEjercicioCombinado {
 
         float resultado;
 
-        resultado=(((float)6/5)-((float)2/3)*((float)7/2)+((float)2/30))/(((float)1/3)/5);
+        resultado=((6.0f/5)-(2.0f/3)*(7.0f/2)+(2.0f/30))/((1.0f/3)/5);
 
 
         System.out.println(resultado);
@@ -20,3 +20,4 @@ public class UnEjercicioCombinado {
 
 
 //(((6/5)-(2/3)*((7/2))+(2/30))/((1/3)/5))
+
