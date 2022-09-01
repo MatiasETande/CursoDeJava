@@ -1,4 +1,4 @@
-package TP11;
+package TPNro11;
 
 import java.util.Random;
 
