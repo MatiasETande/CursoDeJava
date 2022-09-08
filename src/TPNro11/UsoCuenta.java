@@ -11,10 +11,11 @@ public class UsoCuenta {
 
         cuenta1.enviarDinero(2500,cuenta2);
 
+        System.out.println("Probando cuenta1: ");
         cuenta1.mostrarDatos();
         cuenta1.mostrarSaldo();
 
-
+        System.out.println("\nProbando cuenta2: ");
         cuenta2.mostrarDatos();
         cuenta2.mostrarSaldo();
 

@@ -10,7 +10,7 @@ class CuentaCorriente {
     public CuentaCorriente(String nombreTitular, double saldo) {
         this.saldo = saldo;
         this.nombreTitular = nombreTitular;
-        this.numeroCuenta = Math.abs(random.nextLong());
+        this.numeroCuenta = random.nextInt(999)+1;
     }
 
 
@@ -32,7 +32,7 @@ class CuentaCorriente {
     }
 
     public void  mostrarSaldo() {
-        System.out.println("El saldo de "+this.getNombreTitular()+" es: "+this.saldo);
+        System.out.println("\nEl saldo de "+this.numeroCuenta+" es: "+this.saldo);
     }
 
     public String getNombreTitular() {
@@ -45,7 +45,7 @@ class CuentaCorriente {
 
     public void mostrarDatos(){
         System.out.println("Nombre Titular: "+getNombreTitular());
-        System.out.println("Nro de Cuenta: "+ getNumeroCuenta());
+        System.out.format("Nro de Cuenta: %d", this.numeroCuenta);
     }
 
     public void enviarDinero(double dinero, CuentaCorriente cuenta) {
