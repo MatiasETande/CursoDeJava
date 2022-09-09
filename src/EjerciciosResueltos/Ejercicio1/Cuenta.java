@@ -39,8 +39,14 @@ public class Cuenta {
         }
     }
 
+    //toString
 
 
-
-
+    @Override
+    public String toString() {
+        return "Cuenta{" +
+                "titular='" + titular + '\'' +
+                ", cantidad=" + cantidad +
+                '}';
+    }
 }

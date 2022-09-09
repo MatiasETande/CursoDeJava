@@ -21,8 +21,7 @@ public class Ejercio1 {
         c1.retirar(250);
         System.out.println("Cantidad: $"+c1.getCantidad());
 
-
-
+        System.out.println(c1.toString());
 
 
     }
